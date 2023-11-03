@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    row-gap: 50px;
+    background-color: aquamarine;
+  }
+  .item1 {
+    grid-column: 1/span2 ;
+    grid-row: 1;
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    background-color:blueviolet ;
+  }
+  .item1{
+    grid-column: 1/span2 ;
+    grid-row: 1;
+
+   
+  }
